@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farah Hasan</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Playpen+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+        <link rel="stylesheet" href="css/normallize.css">
+        <link rel="stylesheet" href="css/all.css">
+        <script src="Js/form.js"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("wd5OKtkSiYO7uXZ4y");
+   })();
+</script>
+
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <a href="" class="logo">Farah Hasan</a>
+        <i class='bx bx-menu' id="menu"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">experience</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <div class="secone">
+                    <h3>Hi there I'm</h3>
+                    <h1>Farah hasan</h1>
+                    <h3>and I'am <span>Computer engineer</span></h3>
+                    <p>A fresh graduate computer engineer, creator and technologist who is passionate about various fields of technology. I recently graduated from a major Computers and networks security engineer.
+                    </p>
+                    <a href="cv/Farah Hasan CV.pdf"><button>Download resume</button></a>
+                </div>
+                <div class="img">
+                    <img src="images/programer.png" alt="">
+                </div>
+                
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-image">
+                <img src="images/coder.png" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="about-heading">About me</h2>
+                <p>I am Farah, 22 years old. I have studied computer and network security engineering. I prefer working in the fields of the web because it is creative work in my opinion and I find it very fun!
+                    I aspire to find a job with great enthusiasm where I am achieving personal growth, expanding on basic knowledge and skills, trying as much as possible to make this company stronger by achieving its goals and I want to make a difference in the world with your team. my dream to be very creative in my work.</p>
+            </div>
+        </section>
+        <section class="experience" id="experience">
+            <h2>My experience</h2>
+            <div class="ex-container">
+                <div class="box">
+                    <ion-icon name="laptop-outline"></ion-icon>
+                    <h3>Digital content creator</h3>
+                    <p>I am trying to build a Computer Info brand and I am trying to explain various technical topics on it, and I aspire to develop it further in the future.</p>
+                    <div class="links">
+                        <a href="https://www.youtube.com/@Computer-Info" target="_blank">Youtube</a>
+                        <a href="https://www.instagram.com/com.puter_info/" target="_blank">instagram</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <ion-icon name="laptop-outline"></ion-icon>
+                    <h3>Freelancer</h3>
+                    <p>I did a many freelance jobs, including designing, writing articles, and doing computer-related work, including on the platform and in private.</p>
+                    <div class="links">
+                        <a href="https://mostaql.com/u/farah_hatem/reviews" target="_blank">my review</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact me</h2>
+           
+                <div class="form">
+                    <div class="input-box">
+                        <input type="text" placeholder="Your Name" id="name">
+                        <input type="email" placeholder="Your Email"  id="email">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Email Subject" value="subject" id="sub">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message" ></textarea>
+                        <input type="submit" value="Send message" class="btn" onclick="sendMail()">
+                    </div>
+                </div>
+        
+            <footer>
+                <p>copyright &copy; 2023 by Farah Hasan | All Right reserve</p>
+            </footer>
+        </section>
+    </main>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="Js/script.js"></script>
+</body>
+</html>
